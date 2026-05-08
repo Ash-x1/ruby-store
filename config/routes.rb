@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+  get "unsubscribes/show"
   get "subscribers/create"
   resource :session
   resources :passwords, param: :token
